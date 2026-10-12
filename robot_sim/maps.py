@@ -1,4 +1,4 @@
-"""Occupancy grid maps. True = occupied. Resolution is metres per cell."""
+﻿"""Occupancy grid maps. True = occupied. Resolution is metres per cell."""
 from dataclasses import dataclass
 
 import numpy as np
@@ -87,8 +87,8 @@ def maze(res=0.1):
     _box(g, res, 8, 3.5, 8.4, 12)
     _box(g, res, 12, 0, 12.4, 8.5)
     _box(g, res, 16, 3.5, 16.4, 12)
-    _box(g, res, 4, 8.1, 7.0, 8.5)
-    _box(g, res, 9.4, 3.5, 12.0, 3.9)
+    _box(g, res, 4, 8.1, 6.6, 8.5)
+    _box(g, res, 9.8, 3.5, 12.0, 3.9)
     return GridMap("maze", g, res, (1.5, 1.5), (18.5, 1.5))
 
 
